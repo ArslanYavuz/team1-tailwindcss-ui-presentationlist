@@ -4,9 +4,10 @@
   },
   "scripts": {
 
-    "build": "npx tailwindcss -i ./src/main.css -o ./dist/input.css",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
 
-    "watch": "npx tailwindcss -i ./src/main.css -o ./dist/input.css --watch"
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
 
   }
 }
+                                                     
