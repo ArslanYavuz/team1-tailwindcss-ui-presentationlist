@@ -23,19 +23,49 @@
         class="block  h-10 rounded-full shadow-md shadow-gray-600 sm:mx-0 sm:shrink-0 border border-white border-spacing-2 justify-end alt=">
     </div>
   </header>
-  <div class="flex justify-between bg-gray-50 border rounded-md gap-5 mx-10 my-10 border-collapse">
-    <div class="flex justify-around border p-5    bg-gray-100 w-full border-collapse rounded-md ">
+  <div class="flex justify-between bg-gray-50 border rounded-2xl gap-5 mx-10 mt-10 border-collapse">
+    <div
+      class="flex justify-around border p-5    bg-gray-100 w-full border-collapse rounded-t-2xl border-b-0  border-b-gray-300 ">
       <div class=" flex items-center basis-1/5 justify-start">
         <img src="https://www.iconsdb.com/icons/preview/gray/home-7-xxl.png"
-        class="block  h-8 rounded-full sm:mx-0 sm:shrink-0  justify-end alt=">
+          class="block  h-8 rounded-full sm:mx-0 sm:shrink-0  justify-end alt=">
         <label class="mx-4 text-gray-500 font-medium"> > Takım 1</label>
       </div>
       <div class="flex basis-3/5 justify-center">
-     <label class="text-black font-bold text-2xl">Sunumlar</label>
+        <label class="text-black font-bold text-4xl">Sunumlar</label>
       </div>
       <div class="flex basis-1/5 pr-2 py-1 items-center justify-end">
-        <button class=" bg-purple-700 text-white w-52 h-8 rounded px-1 py-0"> Yeni Sunum Ekle</button>
+        <button class=" bg-blue-700 text-white w-52 h-8 rounded px-1 py-0"> Yeni Sunum Ekle</button>
       </div>
+    </div>
+
+  </div>
+  <div class="flex justify-self-auto bg-gray-50  gap-5 mx-10  border border-b-0 border-b-gray-400 rounded-b-2xl">
+    <div class="flex basis-3/4  border-gray-200  border">
+      <div class="flex basis-1/12 text-left  ml-5 my-6"> <a href="" class=" text-gray-400 "> Tüm Kayıtlar</a> </div>
+      <div class="flex basis-1/12 text-left  ml-2 my-6"><a href="" class=" text-gray-400 "> Sunumlarım</a> </div>
+      <div class="flex basis-9/12 justify-end  my-3">
+        <div class="relative w-96 justify-center">
+          <div class="flex absolute inset-y-4 inset-x-2 left-0  pl-3 pointer-events-none w-96">
+            <svg aria-hidden="true" class="w-5 h-5  text-gray-500 dark:text-gray-400 top-0" fill="none" stroke="currentColor"
+              viewBox="0 0 24 24" >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+            </svg>
+          </div>
+          <input type="search" id="default-search"
+            class="block mx-2 p-3 pl-8 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-3004 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Başlığa veya etikete göre ara" required>
+        </div>
+      </div>
+    </div>
+    <div class="flex basis-1/4 justify-start my-2">
+      <ul role="list" class="marker:text-sky-400 list-disc pl-5 space-y-3 text-slate-500">
+        <p class="text-black  text-xl font-semibold border-b">Markalar</p>
+        <li>Marka 1</li>
+        <li>Marka 2</li>
+        <li>Marka 3</li>
+      </ul>
     </div>
   </div>
 </body>
